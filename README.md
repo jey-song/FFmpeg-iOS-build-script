@@ -15,6 +15,14 @@ Tested with:
 * https://github.com/libav/gas-preprocessor
 * yasm 1.2.0
 
+```
+brew install yasm
+git clone https://github.com/libav/gas-preprocessor
+cd gas-preprocessor
+ln -s "`pwd`/gas-preprocessor.pl" /usr/local/bin/gas-preprocessor.pl # sudo
+```
+
+
 ## Usage
 
 Use build-ffmpeg-tvos.sh for tvOS.
